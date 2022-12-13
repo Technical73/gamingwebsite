@@ -1,12 +1,18 @@
-
-export default function Header() {
-
-    return (
+function Banner (){
+    return(
         <div>
-            <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-            <div className="container-fluid bg-primary">
+         <div className="hero">
+            
+                <video autoPlay loop muted>
+                    <source src="https://comm.v.easebar.com/nie/2022/1128/4cc9d2bcdc47368775020c63de1ccd28qt.mp4" type="video/mp4"></source>
+
+                </video>
+                <div className="content">
+                <nav className='navbar  p-md-3 navbar-expand-lg navbar-dark navbar-inverse shadow-5-strong'>
+            <div className="container-fluid ">
                 
-                    <a  className='navbar-brand text ms-5' href='#brand'><img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png" width="30" height="30" alt="logo" className="d-inline-block align-text-top"></img>exter</a>
+                
+                    <a  className='navbar-brand ms-5' href='#brand'>dextergames!!</a>
                  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#examplenavbar"><span className="navbar-toggler-icon"></span></button>
 
                  <div className="navbar-collapse collapse" id="examplenavbar">
@@ -31,11 +37,17 @@ export default function Header() {
                         </li>
                     </ul>
                  </div>
-                
+                 
                 
             </div>
             </nav>
-        </div>
+                </div>
 
+                
+
+                </div>
+        
+        </div>
     )
 }
+export default Banner;
